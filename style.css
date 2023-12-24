@@ -153,7 +153,7 @@
 /** Hero Section **/
 
 .hero-section {
-    background-image: url(BKBIET_Home-100x50.jpg);
+    background-image: url(bkbiet.jpg);
     background-size: cover;
     height: 471px;
     display: flex;
@@ -164,16 +164,19 @@
     padding: 0 30px;
 }
 
+
 .btn {
     font-size: x-large;
     padding: 5px 8px;
     font-weight: 600;
     color: black;
-    background-color: rgba(218, 0, 0, 0.021);
+    background-color: rgba(0, 203, 218, 0.021);
     border: 2.7px solid black;
     border-radius: 8px;
     cursor: pointer;
-    margin-top: 199px;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-top: 62px;
     align-items: center;
     justify-content: center;
 }
@@ -184,7 +187,7 @@
 }
 
 .hero-msg {
-    background-color: white;
+    background-color: rgb(91, 159, 236);
     color: black;
     height: 40px;
     display: flex;
@@ -196,7 +199,8 @@
 }
 
 .hero-msg a {
-    color: #007185;
+    color: black;
+    font-weight: 600;
     text-decoration: none;
     cursor: pointer;
 }
@@ -221,6 +225,44 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 327px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1 {
+    background-image: url(bkbiet_logo-removebg-preview.png);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
 
 
 .foot-panel4 {
