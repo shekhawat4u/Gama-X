@@ -165,6 +165,7 @@
 }
 
 
+
 .btn {
     font-size: x-large;
     padding: 5px 8px;
@@ -174,8 +175,6 @@
     border: 2.7px solid black;
     border-radius: 8px;
     cursor: pointer;
-    flex-direction: row;
-    margin-left: 350px;
     margin-top: 62px;
     align-items: center;
     justify-content: center;
